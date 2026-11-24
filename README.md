@@ -1,50 +1,57 @@
-# Awesome-Cross-Platform-Native-App-Development
-# Awesome-Cross-Platform-Native-App-Development
+<div align="center">
 
-markdown
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cross-Platform-Native-App-Development?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cross-Platform-Native-App-Development?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-## Top Cross-Platform Native App Development Ecosystem
+<br/><br/>
 
+<a href="https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development">
+  <img src="assets/banner.svg" alt="Awesome Cross-Platform Native App Development Banner" width="100%" />
+</a>
 
+# 🚀 Awesome Cross-Platform Native App Development
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+**A curated index of top-tier SaaS platforms, hosted cloud builders, native runtimes, frameworks, and open-source tools for building native iOS, Android, macOS, Windows, and Linux apps from a single unified codebase.**
 
-*Focused on Cross-Platform Mobile & Desktop Frameworks, Native Runtime Bridges, Visual App Builders, Cloud CI/CD & Over-the-Air (OTA) Update Pipelines*  
+*Master the cross-platform native software stack: Flutter, React Native, Tauri, Expo, Kotlin Multiplatform (KMP), .NET MAUI, Electron, Wails, Over-the-Air (OTA) pipelines, and Mobile DevOps.*
 
-**Last updated: November 2026**
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development/commits/main)
+[![Last Updated](https://img.shields.io/badge/Updated-November%202026-blue.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cross-Platform-Native-App-Development)
 
+</div>
 
+---
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Cross-Platform Native App Development**. These tools build, compile, bundle, preview, update, and ship native iOS, Android, macOS, Windows, and Linux applications from a single shared codebase using native UI frameworks, JavaScript/TypeScript bridges, Dart/Skia/Impeller engines, C#/.NET runtimes, and Rust desktop/mobile shells.
+## 📖 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Cloud Platforms](#️-saas--hosted-cloud-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include React Native Cloud, FlutterFlow, Expo Application Services (EAS), Ionic Appflow, Capacitor Cloud, NativeScript Cloud, Codename One, Tabris.js, Xamarin Cloud, .NET MAUI Cloud, and Neywa-Labs/nativ (the category leaders and popular runtimes). 
+## 📊 Sector Overview & Market Dynamics
 
+The global cross-platform mobile and multi-platform application development market is estimated at approximately **$105B – $120B**, with the broader Mobile Application Development Platform (MADP) ecosystem on track to exceed **$350B+** globally at a ~12–15% CAGR. 
 
+The sector exhibits a **moderately fragmented** structure driven by three distinct architectural paradigms:
+1. **Directly-Rendered Engine Frameworks**: Google's Flutter (commanding extensive mobile developer mindshare with Dart & Skia/Impeller).
+2. **Bridged & Modern Native UI Frameworks**: Meta's React Native (leveraging JavaScript/TypeScript with Fabric and TurboModules).
+3. **Shared Logic with Native UI**: JetBrains' Kotlin Multiplatform (KMP) & Compose Multiplatform (allowing 100% shared business logic with platform-native views).
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for cross-platform native mobile/desktop frameworks (`React Native`, `Flutter`, `Expo`, `Capacitor`, `NativeScript`, `.NET MAUI`, `Kotlin Multiplatform`), lightweight Rust/web-hybrid native runtimes (`Neywa-Labs/nativ`, `Tauri`, `Wails`, `Lynx`), and self-hosted OTA update & mobile CI/CD alternatives (`Fastlane`, `Maestro`, self-hosted Expo Updates/CodePush servers) — ideal for mobile engineers, full-stack developers, indie app makers, and platform teams.
+Surrounding this core layer, specialized developer cloud platforms (such as Expo EAS, Bitrise, and FlutterFlow) fiercely compete across automated mobile CI/CD, Over-the-Air (OTA) bundle distribution, and visual low-code app creation rather than yielding to a single winner-take-all monopoly.
 
+---
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global cross-platform mobile and application development market is estimated at approximately **$105B – $120B**, with the broader Mobile Application Development Platform (MADP) ecosystem on track to exceed $350B+ globally at a ~12–15% CAGR. The sector exhibits a **moderately fragmented** structure led by a three-way architectural divide (Google's Flutter, Meta's React Native, and JetBrains' Kotlin Multiplatform), while the surrounding SaaS tooling layer—spanning mobile CI/CD, cloud builders, and OTA distribution—features high competition among specialized developer platforms rather than a winner-take-all monopoly.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Cloud Platforms
 
 | Platform | Primary Focus & Description | Company Valuation / Revenue | Pricing (Starting Paid Tier) | Free Tier / Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
@@ -60,158 +67,123 @@ The global cross-platform mobile and application development market is estimated
 | **[Tabris.js](https://tabrisjs.com)** (EclipseSource) | TypeScript/JavaScript framework utilizing native OS widgets on iOS & Android backed by enterprise support. | **Bootstrapped / Private Boutique Firm** (~11–50 employees) | **Custom Quote** (Enterprise commercial runtime & support licensing) | **Free forever plan**: BSD 3-Clause open-source framework core and Tabris.js Developer App on Google Play/App Store for local device testing (`tabris serve`); no cloud build servers. |
 | **[NativeScript Tools](https://nativescript.org)** (nStudio) | Native iOS/Android JavaScript/TypeScript framework featuring browser preview and native execution runners. | **Bootstrapped / Private Consultancy** (nStudio LLC stewardship) | **Custom Quote** (Enterprise migration & consulting; tooling is 100% open-source) | **Free forever plan**: NativeScript runtime and NativeScript Preview mobile applications on iOS & Android are completely free with zero subscription fees; cloud CI runs on users' own pipelines. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+*Sorted in descending order by GitHub star count.*
 
+1. **[Flutter (`flutter/flutter`)](https://github.com/flutter/flutter)** [![GitHub Stars](https://img.shields.io/github/stars/flutter/flutter?style=social&color=white)](https://github.com/flutter/flutter/stargazers)  
+   Google's open-source UI toolkit for building natively compiled, GPU-accelerated (Impeller/Skia) applications for mobile (iOS, Android), web, and desktop from a single Dart codebase.
 
+2. **[React Native (`facebook/react-native`)](https://github.com/facebook/react-native)** [![GitHub Stars](https://img.shields.io/github/stars/facebook/react-native?style=social&color=white)](https://github.com/facebook/react-native/stargazers)  
+   Meta's flagship cross-platform framework for building native iOS and Android apps using React and JavaScript/TypeScript, powered by the New Architecture (Fabric renderer and TurboModules).
 
+3. **[Electron (`electron/electron`)](https://github.com/electron/electron)** [![GitHub Stars](https://img.shields.io/github/stars/electron/electron?style=social&color=white)](https://github.com/electron/electron/stargazers)  
+   Cross-platform desktop application framework combining Chromium and Node.js to build native macOS, Windows, and Linux applications with web technologies.
 
-## Open-Source GitHub Projects
+4. **[Tauri (`tauri-apps/tauri`)](https://github.com/tauri-apps/tauri)** [![GitHub Stars](https://img.shields.io/github/stars/tauri-apps/tauri?style=social&color=white)](https://github.com/tauri-apps/tauri/stargazers)  
+   Fast, memory-efficient, and security-focused cross-platform framework written in Rust for building tiny, ultra-lightweight desktop and mobile (iOS & Android) apps using native webviews.
 
+5. **[Expo (`expo/expo`)](https://github.com/expo/expo)** [![GitHub Stars](https://img.shields.io/github/stars/expo/expo?style=social&color=white)](https://github.com/expo/expo/stargazers)  
+   Universal open-source platform and React Native framework featuring file-based routing (`Expo Router`), universal device APIs, automated configuration plugins, and prebuild tooling.
 
+6. **[Fastlane (`fastlane/fastlane`)](https://github.com/fastlane/fastlane)** [![GitHub Stars](https://img.shields.io/github/stars/fastlane/fastlane?style=social&color=white)](https://github.com/fastlane/fastlane/stargazers)  
+   The definitive open-source automation tool for iOS and Android developers, automating screenshots, code signing (`match`), beta deployments, and app store publishing.
 
-- **[Neywa-Labs/nativ](https://github.com)**  
+7. **[Wails (`wailsapp/wails`)](https://github.com/wailsapp/wails)** [![GitHub Stars](https://img.shields.io/github/stars/wailsapp/wails?style=social&color=white)](https://github.com/wailsapp/wails/stargazers)  
+   Lightweight, fast alternative to Electron for building native cross-platform desktop applications using Go and any modern web frontend framework (React, Vue, Svelte).
 
-  Open-source cross-platform native app development toolkit engineered to streamline native application workflows, modern runtime execution, and developer productivity.
+8. **[Avalonia UI (`AvaloniaUI/Avalonia`)](https://github.com/AvaloniaUI/Avalonia)** [![GitHub Stars](https://img.shields.io/github/stars/AvaloniaUI/Avalonia?style=social&color=white)](https://github.com/AvaloniaUI/Avalonia/stargazers)  
+   Cross-platform open-source XAML and C# UI framework providing pixel-identical UI rendering across Windows, macOS, Linux, iOS, Android, and WebAssembly.
 
+9. **[NativeScript (`NativeScript/NativeScript`)](https://github.com/NativeScript/NativeScript)** [![GitHub Stars](https://img.shields.io/github/stars/NativeScript/NativeScript?style=social&color=white)](https://github.com/NativeScript/NativeScript/stargazers)  
+   Open-source runtime empowering developers to write native iOS and Android apps in TypeScript, JavaScript, Angular, Vue, or Svelte with direct 100% access to native platform APIs without wrappers.
 
+10. **[Slint (`slint-ui/slint`)](https://github.com/slint-ui/slint)** [![GitHub Stars](https://img.shields.io/github/stars/slint-ui/slint?style=social&color=white)](https://github.com/slint-ui/slint/stargazers)  
+    Comprehensive, lightweight GUI toolkit written in Rust for desktop, embedded, and mobile platforms supporting Rust, C++, and JavaScript.
 
-- **[React Native (`facebook/react-native`)](https://github.com)**  
+11. **[.NET MAUI (`dotnet/maui`)](https://github.com/dotnet/maui)** [![GitHub Stars](https://img.shields.io/github/stars/dotnet/maui?style=social&color=white)](https://github.com/dotnet/maui/stargazers)  
+    Microsoft's multi-platform app UI framework that unifies Android, iOS, macOS, and Windows application development into a single C# codebase and project structure.
 
-  Flagship open-source framework from Meta for building truly native iOS and Android applications using React and JavaScript/TypeScript with New Architecture (Fabric & TurboModules).
+12. **[NativeBase (`GeekyAnts/NativeBase`)](https://github.com/GeekyAnts/NativeBase)** [![GitHub Stars](https://img.shields.io/github/stars/GeekyAnts/NativeBase?style=social&color=white)](https://github.com/GeekyAnts/NativeBase/stargazers)  
+    Accessible, mobile-first component library and design system for React Native and web that accelerates cross-platform mobile UI development.
 
+13. **[Compose Multiplatform (`JetBrains/compose-multiplatform`)](https://github.com/JetBrains/compose-multiplatform)** [![GitHub Stars](https://img.shields.io/github/stars/JetBrains/compose-multiplatform?style=social&color=white)](https://github.com/JetBrains/compose-multiplatform/stargazers)  
+    JetBrains' declarative UI framework for Kotlin Multiplatform (KMP), enabling developers to share UI code seamlessly across Android, iOS, desktop, and web.
 
+14. **[React Native Windows & macOS (`microsoft/react-native-windows`)](https://github.com/microsoft/react-native-windows)** [![GitHub Stars](https://img.shields.io/github/stars/microsoft/react-native-windows?style=social&color=white)](https://github.com/microsoft/react-native-windows/stargazers)  
+    Microsoft-supported framework bringing React Native and New Architecture capabilities directly to Windows 10/11 WinUI 3 and Apple macOS native applications.
 
-- **[Flutter (`flutter/flutter`)](https://github.com)**  
+15. **[Capacitor (`ionic-team/capacitor`)](https://github.com/ionic-team/capacitor)** [![GitHub Stars](https://img.shields.io/github/stars/ionic-team/capacitor?style=social&color=white)](https://github.com/ionic-team/capacitor/stargazers)  
+    Cross-platform native runtime created by the Ionic team that turns any modern web application into a native iOS, Android, and Progressive Web App with full native bridge access.
 
-  Google's open-source UI toolkit for crafting natively compiled, GPU-accelerated (Impeller/Skia) applications for mobile, web, and desktop from a single Dart codebase.
+16. **[Maestro (`mobile-dev-inc/maestro`)](https://github.com/mobile-dev-inc/maestro)** [![GitHub Stars](https://img.shields.io/github/stars/mobile-dev-inc/maestro?style=social&color=white)](https://github.com/mobile-dev-inc/maestro/stargazers)  
+    Simple, reliable open-source mobile UI automation and end-to-end testing framework for iOS and Android with declarative YAML test suites.
 
+17. **[Lynx (`lynx-family/lynx`)](https://github.com/lynx-family/lynx)** [![GitHub Stars](https://img.shields.io/github/stars/lynx-family/lynx?style=social&color=white)](https://github.com/lynx-family/lynx/stargazers)  
+    High-performance native rendering engine open-sourced by ByteDance featuring dual-threaded architecture for building responsive cross-platform native interfaces.
 
+18. **[React Native Paper (`callstack/react-native-paper`)](https://github.com/callstack/react-native-paper)** [![GitHub Stars](https://img.shields.io/github/stars/callstack/react-native-paper?style=social&color=white)](https://github.com/callstack/react-native-paper/stargazers)  
+    High-quality, customizable Material Design component library for React Native applications with cross-platform theming support.
 
-- **[Expo (`expo/expo`)](https://github.com)**  
+19. **[Tamagui (`tamagui/tamagui`)](https://github.com/tamagui/tamagui)** [![GitHub Stars](https://img.shields.io/github/stars/tamagui/tamagui?style=social&color=white)](https://github.com/tamagui/tamagui/stargazers)  
+    Universal UI system and optimizing styling engine for React Native and web that compiles dynamic styles into zero-runtime atomic CSS and optimized native views.
 
-  Open-source platform and universal React framework providing file-based routing (`Expo Router`), unified native device APIs, and local prebuild tooling for iOS, Android, and Web.
+20. **[React Native Reanimated (`software-mansion/react-native-reanimated`)](https://github.com/software-mansion/react-native-reanimated)** [![GitHub Stars](https://img.shields.io/github/stars/software-mansion/react-native-reanimated?style=social&color=white)](https://github.com/software-mansion/react-native-reanimated/stargazers)  
+    High-performance, worklet-based animation and gesture engine for React Native running smoothly at 60/120 FPS directly on the native thread.
 
+21. **[Neywa-Labs/nativ (`Neywa-Labs/nativ`)](https://github.com/Neywa-Labs/nativ)** [![GitHub Stars](https://img.shields.io/github/stars/Neywa-Labs/nativ?style=social&color=white)](https://github.com/Neywa-Labs/nativ/stargazers)  
+    Open-source cross-platform native application development toolkit engineered to streamline native workflows, modern runtime execution, and developer productivity.
 
-
-- **[Capacitor (`ionic-team/capacitor`)](https://github.com)**  
-
-  Modern open-source native runtime by Ionic that turns any web application (React, Vue, Svelte, Angular) into a native iOS, Android, and Progressive Web App with full native SDK access.
-
-
-
-- **[Tauri (`tauri-apps/tauri`)](https://github.com)**  
-
-  Fast, security-focused open-source framework written in Rust for building ultra-lightweight cross-platform desktop and mobile (iOS & Android) apps using OS native webviews.
-
-
-
-- **[NativeScript (`NativeScript/NativeScript`)](https://github.com)**  
-
-  Open-source framework empowering developers to build native iOS and Android apps using JavaScript, TypeScript, Angular, Vue, Solid, or Svelte with direct 100% access to native platform APIs.
-
-
-
-- **[.NET MAUI (`dotnet/maui`)](https://github.com)**  
-
-  Microsoft's open-source evolution of Xamarin.Forms for building native cross-platform Android, iOS, macOS, and Windows apps from a single C# and XAML codebase.
-
-
-
-- **[Kotlin Multiplatform & Compose Multiplatform (`JetBrains/compose-multiplatform`)](https://github.com)**  
-
-  Open-source declarative UI and shared-logic framework by JetBrains enabling native Android, iOS, desktop, and web applications in Kotlin.
-
-
-
-- **[Fastlane (`fastlane/fastlane`)](https://github.com)**  
-
-  Essential open-source mobile DevOps automation suite handling beta deployments, code signing (`match`), screenshot generation, and App Store / Google Play releases locally or in CI.
-
-
-
-- **[Avalonia UI (`AvaloniaUI/Avalonia`)](https://github.com)**  
-
-  Cross-platform open-source .NET UI framework enabling pixel-consistent native applications across Windows, macOS, Linux, iOS, Android, and WebAssembly.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Wails (`wailsapp/wails`)](https://github.com)** for building lightweight cross-platform desktop applications combining a Go backend with any modern web frontend.
-
-- **[Lynx (`lynx-family/lynx`)](https://github.com)** for ByteDance's open-source cross-platform native rendering engine empowering web developers to build high-FPS native mobile UIs with dual-threaded architecture.
-
-- **[React Native Windows & macOS (`microsoft/react-native-windows`)](https://github.com)** for extending React Native applications natively to Windows desktop and Apple macOS platforms.
-
-- **[Self-Hosted Expo Updates / CodePush Servers (`fathy/expo-updates-server` & `shm-open/code-push-server`)](https://github.com)** for open-source self-hosted Over-the-Air (OTA) JavaScript bundle delivery without vendor lock-in.
-
-- **[Maestro (`mobile-dev-inc/maestro`)](https://github.com)** for simple, resilient open-source end-to-end mobile UI testing across iOS and Android simulators and physical devices using YAML flows.
-
-
-
-**Frameworks for building custom systems**: Combine **Expo + React Native** or **Flutter** for flagship mobile apps, **Tauri** or **Capacitor** for lightweight web-to-native mobile/desktop apps, and **Fastlane + Maestro** for automated open-source mobile CI/CD and E2E testing.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Note that `Xamarin` reached official Microsoft end-of-support in May 2024 and was succeeded by open-source `.NET MAUI`, while compiling native iOS binaries locally still requires macOS/Xcode unless using a cloud build runner.
-
-- Always comply with Apple App Store and Google Play Store guidelines regarding Over-the-Air (OTA) code push updates—only update JavaScript/web assets, never native binary behavior.
-
-
+22. **[CodePush Server (`shm-open/code-push-server`)](https://github.com/shm-open/code-push-server)** [![GitHub Stars](https://img.shields.io/github/stars/shm-open/code-push-server?style=social&color=white)](https://github.com/shm-open/code-push-server/stargazers)  
+    Self-hosted open-source server alternative for Microsoft CodePush / App Center, enabling independent Over-the-Air (OTA) updates for React Native and Cordova applications.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help make this the most complete, reliable directory for cross-platform engineers:
 
-Use code with caution.
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-framework`).
+3. 📝 **Add your entry** to `README.md` following the existing format (include description, pricing/star badges, and official links).
+4. 📬 **Submit a Pull Request** with a concise description of what you added and why it benefits the cross-platform native development community.
 
-Made for mobile engineers, cross-platform developers, indie app makers, and open-source contributors.
+---
 
-Let's make cross-platform native app development more open, fast, and developer-owned.
+## 💖 Support & Sponsor
+
+Thank you for exploring and using this curated guide! If this repository helped you discover tools, save engineering time, or choose your next app tech stack, please consider supporting the project:
+
+- ⭐ **Star this repository** to help fellow mobile and cross-platform developers discover it.
+- 🍴 **Fork & Share** it with your engineering team, newsletter, or developer communities on X/Twitter, LinkedIn, Reddit, and Discord.
+- ☕ **Buy me a coffee & Sponsor my open-source work**: Support sustained updates and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+<div align="center">
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors" alt="Sponsor on GitHub" />
+</a>
+
+</div>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cross-Platform-Native-App-Development&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cross-Platform-Native-App-Development&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent, **community-curated** list intended for educational and engineering evaluation purposes.
+- Mentions of products, companies, and platforms do not represent formal commercial endorsements.
+- Remember to strictly comply with Apple App Store and Google Play Store Developer Program Guidelines when leveraging Over-the-Air (OTA) runtime updates—only update interpreted code and static assets, never compiled native binary execution boundaries.
+
+---
+
+<div align="center">
+  <sub>Crafted with ❤️ for mobile engineers, full-stack builders, indie developers, and cross-platform creators everywhere.</sub>
+</div>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; border-radius:12px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; overflow:hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowGrad2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Filters for Glow & Shadow -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb1 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.35; }
+      50% { transform: translate(60px, 30px) scale(1.15); opacity: 0.6; }
+    }
+    @keyframes pulseOrb2 {
+      0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.3; }
+      50% { transform: translate(-40px, -20px) scale(1.1); opacity: 0.55; }
+    }
+    @keyframes floatPill1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatPill2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(8px); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -40; }
+    }
+    .orb-1 { animation: pulseOrb1 8s ease-in-out infinite; }
+    .orb-2 { animation: pulseOrb2 9s ease-in-out infinite; }
+    .pill-1 { animation: floatPill1 5s ease-in-out infinite; }
+    .pill-2 { animation: floatPill2 6s ease-in-out infinite; }
+    .flow-line { stroke-dasharray: 6 6; animation: dashMove 2s linear infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Dynamic Glowing Ambient Orbs (in background) -->
+  <circle class="orb-1" cx="220" cy="90" r="160" fill="url(#glowGrad1)" filter="url(#glow)" />
+  <circle class="orb-2" cx="980" cy="270" r="180" fill="url(#glowGrad2)" filter="url(#glow)" />
+
+  <!-- Animated Circuit / Connective Flow Lines in background -->
+  <path class="flow-line" d="M 50 180 Q 280 60 600 180 T 1150 180" fill="none" stroke="rgba(99, 102, 241, 0.22)" stroke-width="2" />
+  <path class="flow-line" d="M 80 260 Q 400 320 700 220 T 1120 120" fill="none" stroke="rgba(192, 132, 252, 0.18)" stroke-width="1.5" />
+
+  <!-- Floating Dynamic Ecosystem Pills (Behind text layer) -->
+  <g class="pill-1" transform="translate(140, 50)">
+    <rect width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="65" y="21" fill="#7dd3fc" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">⚡ React Native</text>
+  </g>
+  <g class="pill-2" transform="translate(930, 60)">
+    <rect width="110" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="55" y="21" fill="#a5b4fc" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">💙 Flutter</text>
+  </g>
+  <g class="pill-2" transform="translate(100, 280)">
+    <rect width="115" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(244, 114, 182, 0.3)" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="57" y="21" fill="#f472b6" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🦀 Tauri &amp; Rust</text>
+  </g>
+  <g class="pill-1" transform="translate(950, 275)">
+    <rect width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="65" y="21" fill="#d8b4fe" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🚀 Kotlin (KMP)</text>
+  </g>
+
+  <!-- Foreground Static Content Card (Ensures absolute legibility and prominence) -->
+  <g transform="translate(220, 80)">
+    <!-- Central Backing Container -->
+    <rect width="760" height="200" rx="18" fill="#0d1424" fill-opacity="0.82" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" filter="url(#cardShadow)" />
+    
+    <!-- Category Badge -->
+    <g transform="translate(255, 22)">
+      <rect width="250" height="26" rx="13" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1" />
+      <text x="125" y="17" fill="#818cf8" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.2">CURATED ECOSYSTEM DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="380" y="85" text-anchor="middle" font-size="34" font-weight="800" fill="url(#primaryGrad)" letter-spacing="-0.5">
+      Cross-Platform Native Apps
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="380" y="118" text-anchor="middle" font-size="15" font-weight="500" fill="#cbd5e1" letter-spacing="0.2">
+      Universal Frameworks • Cloud Build CI/CD • Native Runtimes • OTA Pipelines
+    </text>
+
+    <!-- Platform Target Indicators -->
+    <g transform="translate(130, 145)">
+      <rect x="0" y="0" width="85" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <text x="42" y="17" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">📱 iOS</text>
+
+      <rect x="100" y="0" width="95" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <text x="147" y="17" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">🤖 Android</text>
+
+      <rect x="210" y="0" width="90" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <text x="255" y="17" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">🖥️ macOS</text>
+
+      <rect x="315" y="0" width="95" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <text x="362" y="17" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">🪟 Windows</text>
+
+      <rect x="425" y="0" width="85" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.08)"/>
+      <text x="467" y="17" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">🐧 Linux</text>
+    </g>
+  </g>
+</svg>
